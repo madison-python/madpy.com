@@ -1,0 +1,34 @@
+body {
+  background: rgb(233, 235, 246);
+  font-family: 'Rubik', sans-serif;
+  color: #8f8f8f;
+  line-height: 1.5;
+  margin: 0;
+  font-size: 1.5em;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+header {
+  display: block;
+  background: #7b6db0;
+  text-align: center;
+
+  h1 {
+    color: #fff;
+    font-size: 4em;
+    margin: 0;
+    padding: 20px;
+  }
+}
+
+main {
+  margin: 50px;
+}

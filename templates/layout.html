@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <title>{% block title %}MadPy{% endblock %}</title>
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='css/main.css') }}">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:400,700" rel="stylesheet">
+
+{% include 'ga.html' %}
+
+  </head>
+  <body>
+
+    <header>
+      <h1>MadPy</h1>
+    </header>
+
+    <main>
+
+{% block main %}{% endblock %}
+
+    </main>
+
+  </body>
+</html>
